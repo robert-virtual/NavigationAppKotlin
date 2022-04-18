@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".HomeFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:id="@+id/title"
+        android:layout_centerHorizontal="true"
+        android:text="Home" />
+<Button
+    android:layout_width="wrap_content"
+    android:text="Page 2"
+    android:layout_centerHorizontal="true"
+    android:id="@+id/btn_page2"
+    android:layout_below="@+id/title"
+    android:layout_height="wrap_content"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:text="Bottom Sheet"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/btn_bottom_sheet"
+        android:layout_below="@+id/btn_page2"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>
